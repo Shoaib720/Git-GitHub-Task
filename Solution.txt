@@ -18,6 +18,7 @@
 
 >git checkout Test
 >git add .
+>git commit -m "added File2-Test.txt and File3-Test.txt"
 
 >git checkout Dev
 >notepad File1-Dev.txt
