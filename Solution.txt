@@ -1,0 +1,42 @@
+>mkdir Git-GitHub-Task
+>cd Git-GitHub-Task/
+
+>git init
+>notepad File1-Dev.txt
+>notepad File2-Test.txt
+>notepad File3-Test.txt
+>notepad .gitignore
+>git add .gitignore
+>git commit -m "initial commit"
+
+>git branch Dev
+>git branch Test
+
+>git checkout Dev
+>git add File1-Dev.txt
+>git commit -m "added File1-Dev.txt"
+
+>git checkout Test
+>git add .
+
+>git checkout Dev
+>notepad File1-Dev.txt
+>git status
+>git diff
+>git add File1-Dev.txt
+>git status
+>git diff --cached
+>git commit -m "modified text in File1-Dev.txt"
+
+>git checkout master
+>git merge Dev
+>git merge Test
+
+>git remote add origin https://github.com/Shoaib720/Git-GitHub-Task.git
+>git push -u origin master
+
+
+>git clone https://github.com/Shoaib720/Git-GitHub-Task.git
+>cd Git-GitHub-Task/
+>notepad Solution.txt
+>
